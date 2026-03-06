@@ -1,0 +1,25 @@
+{
+  "name": "openmusic-api",
+  "version": "1.0.0",
+  "description": "submision dicoding",
+  "license": "ISC",
+  "author": "MahrusAli",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nanoid": "^5.1.6",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
+    "eslint-config-dicodingacademy": "^0.9.5",
+    "globals": "^17.4.0"
+  }
+}
